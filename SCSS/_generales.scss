@@ -1,0 +1,35 @@
+$fuentetitulo: 'Yanone Kaffeesatz', sans-serif;
+$fuentesubtitulo: 'Montserrat', sans-serif;
+$colorprincipal: #fff9df;
+$colornavegacion: #1d7a82;
+$colorfuente: azure;
+$colorhover: #00233a;
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.row{
+  margin: 0;
+ }
+
+html {
+  font-size: 62,5%;
+}
+
+body {
+  background-color: $colorprincipal;
+  min-height: 100vh;
+  animation-duration: 1s;
+  animation-name: aparecer;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+

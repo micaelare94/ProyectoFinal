@@ -1,0 +1,63 @@
+$fuentetitulo: 'Yanone Kaffeesatz', sans-serif;
+$fuentesubtitulo: 'Montserrat', sans-serif;
+$colorprincipal: #fff9df;
+$colornavegacion: #1d7a82;
+$colorfuente: azure;
+$colorhover: #00233a;
+$top: 7%;
+$bottom: 5%;
+
+
+.card {
+  margin-bottom: 5%;
+  margin-top: $top;
+  width: 30rem;
+  height: 20rem;
+  text-align: center;
+  @if $top == 7% {
+    background-color: #f5ae77;
+    } 
+}
+
+
+.card-img-top {
+  margin-top: 7%;
+  width: 60%;
+  opacity:0.7;
+  filter:alpha(opacity=30);
+}
+
+.titulo__h2--p {
+  color: $colorfuente;
+  text-decoration: none;
+  font-family: $fuentesubtitulo;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* programa */
+.transparente {
+  opacity:0.5;
+  filter:blur(2px)
+}
+
+.btn-secondary {
+  background: $colornavegacion;
+  border-style: none;
+}
+
+.btn-secondary:hover {
+  background: $colorhover;
+}
+
+.fuente {
+@extend.titulo__h2--p;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.fuente:hover {
+color:#f5ae77;
+cursor: pointer;
+}
+

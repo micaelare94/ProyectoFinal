@@ -1,0 +1,37 @@
+$fuentetitulo: 'Yanone Kaffeesatz', sans-serif;
+$fuentesubtitulo: 'Montserrat', sans-serif;
+$colorprincipal: #fff9df;
+$colornavegacion: #1d7a82;
+$colorfuente: azure;
+$colorhover: #00233a;
+
+.titulo {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: rgb(245,174,119);
+  background: linear-gradient(183deg, rgba(245,174,119,0.9447129193474265) 4%, rgba(235,144,73,1) 59%, rgba(236,120,29,1) 96%);
+}
+
+.titulo__principal {
+  font-family: $fuentetitulo;
+  font-size: 70px;
+  color: $colorhover;
+}
+
+.titulo__h2 {
+  font-family: $fuentesubtitulo;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: $colorhover;
+}
+
+.piePagina {
+  font-family: $fuentetitulo;
+  font-size: 20px;
+  padding-left: 10px;
+  color: $colorhover;
+  margin-top: 5%;
+}
+
+
+
