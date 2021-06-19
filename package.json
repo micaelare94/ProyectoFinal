@@ -9,11 +9,6 @@
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
 
-"repository": {
-  "type": "git",
-  "url": "git+https://github.com/micaelare94/ProyectoFinal"
-},
-
   "author": "",
   "license": "ISC",
   "devDependencies": {
